@@ -157,6 +157,12 @@ text-align: left;
 {
   position: relative;
   border-radius: 10px;
+  height: 100vh;
+}
+#animation-design
+{
+    height: 130vh;
+    width: 150vh;
 }
 .right h1{
     height: 100vh;
@@ -253,9 +259,9 @@ section .wave
     display: grid;
     grid-template-columns: repeat(4, minmax(0,1fr));
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
     background-color: #fff;
-    margin-left: -20px;
+    margin-left: -30px;
     
     
 }
@@ -338,18 +344,18 @@ section .wave
 
 .card{
     box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border-radius: 40px;
+    border-radius: 25px;
     
     padding: 2rem;
-    height: 61vh;
-    width: 42vh;
+    height: 82vh;
+    width: 44vh;
     margin: 40px;
     gap: 1.5rem;
 }
 .img-style
 {
-    height: 35vh;
-    width: 35vh;
+    height: 56vh;
+    width: 33vh;
     border-radius: 30px;
 }
 /* .card:hover
@@ -395,3 +401,112 @@ background-color: lightcoral;
 background-color: rgb(150, 216, 242);
 }
 /* products ends here  */
+
+
+
+
+
+
+/* footer starts here */
+
+.container
+{
+    max-width: 1170px;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer
+{
+    background-color: skyblue;
+    padding: 70px 0;
+
+}
+
+.footer-col
+{
+    width: 20%;
+    padding: 0 25px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    font-weight: 900;
+    color: #062c6f;
+    margin-bottom: 30px;
+}
+.footer-btn
+{
+    background-color: #062c6f;
+    padding: 7px 35px;
+    color: #fff;
+    
+}
+
+.footer-li li
+{
+    margin-bottom: 10px;
+}
+.footer-li li a
+{
+    color: #062c6f;
+
+}
+.social-links a{
+    border: 1px solid #062c6f;
+    border-radius: 50%;
+    background-color: #062c6f;
+    color: white;
+    padding: .5rem;
+    margin: 0 5px;
+    
+}
+
+.footer-h5
+{
+    color: #062c6f;
+    font-weight: 1000;
+}
+#footer-email
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+#footer-ques
+{
+    color: #062c6f;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.wavy
+{
+    position: relative;
+    width: 95%;
+    height: 100px;
+    /* background: red; */
+    overflow: hidden;
+
+}
+.wavy::before{
+    content: ' aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+    position: absolute;
+    top: -42px;
+    left: 0;
+    padding: 4rem;
+    font-size: 3em;
+    color: transparent;
+    text-decoration-style:wavy;
+    text-decoration-color: #062c6f;
+    text-decoration-line: underline;
+
+
+}
+
+
+/* footer ends here */
