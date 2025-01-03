@@ -21,6 +21,25 @@ header {
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    width:193px;
+height:56px;
+/* gap: 16px;
+opacity: 0px; */
+position: relative;
+}
+header .logotext{
+    font-size: 10px;
+    padding-left: 2rem;
+    margin-top: -4px;
+    font-weight: 200px;
+    font-weight: lighter;
+    position: absolute;
+}
+header div .logoname{
+    font-size: 16px;
+    /* border: 1px solid ; */
+    top: -15px;
+    /* margin-top: -10px; */
 }
 header nav ul {
     list-style: none;
@@ -39,16 +58,19 @@ header nav ul li a:hover {
 .contact-btn {
     /* background: #6c63ff; */
     color: #9249F2;
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
     border: 1px solid #9249F2;
     border-radius: 5px;
     text-decoration: none;
     transition: background 0.3s;
 }
 .send{
-    color: #9249F2;
-    
+    color: #9249F2;  
+    padding-right: 5px;
+    padding-top: -1px;
+
 }
+
      
 /* .contact-btn:hover {
     background: #5548c5;
@@ -59,6 +81,7 @@ header nav ul li a:hover {
     justify-content: space-between;
     padding: 1rem 15rem;
     background: linear-gradient(to right, #f9f9f9, #fff);
+    position: relative;
 }
 .hero .intro {
     max-width: 50%;
@@ -91,6 +114,12 @@ header nav ul li a:hover {
     padding: 2rem;
     background: #fff;
     margin-top: 2rem;
+    /* border: 1px solid; */
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
 }
 .clients .client-logos img {
     max-height: 50px;
@@ -103,4 +132,20 @@ header nav ul li a:hover {
     padding-left: 13rem;
     text-align: left;
     padding-right: 2rem;
+}
+
+/* project details */
+.card{
+    display: flex;
+    flex-direction:row;
+}
+.card-info{
+    border: 1px solid red;
+    
+}
+
+.card .card-info .projectImg{
+    border: 1px solid;
+    width: 472px;
+    height: 312px;
 }
