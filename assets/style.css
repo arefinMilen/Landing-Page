@@ -47,6 +47,7 @@ header nav ul li a:hover {
 }
 .send{
     color: #9249F2;
+    
 }
      
 /* .contact-btn:hover {
@@ -94,4 +95,12 @@ header nav ul li a:hover {
 .clients .client-logos img {
     max-height: 50px;
     margin: 0 1rem;
+}
+
+.client_num{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13rem;
+    text-align: left;
+    padding-right: 2rem;
 }
