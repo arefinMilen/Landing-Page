@@ -137,15 +137,38 @@ header nav ul li a:hover {
 /* project details */
 .card{
     display: flex;
-    flex-direction:row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 1rem;
 }
-.card-info{
+.pro_name{
+    text-align: center;
+    padding: 2rem;
+}
+section  .card-info{
     border: 1px solid red;
-    
+    flex: 1;
+    /* max-width: 30%; */
+    /* text-align: center; */
+    margin: 1rem;
 }
 
 .card .card-info .projectImg{
     border: 1px solid;
     width: 472px;
     height: 312px;
+}
+
+.pro_link{
+    text-decoration: none;
+    color: #9249F2;
+}
+.pro_arrow{
+    align-items: center;
+    width: 300px;
+    margin-left: 35%;
+
+}
+.right-arrow{
+    padding-bottom: 1.5rem;
 }
