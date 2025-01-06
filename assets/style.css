@@ -146,7 +146,7 @@ header nav ul li a:hover {
     padding: 2rem;
 }
 section  .card-info{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     flex: 1;
     /* max-width: 30%; */
     /* text-align: center; */
@@ -154,7 +154,7 @@ section  .card-info{
 }
 
 .card .card-info .projectImg{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 472px;
     height: 312px;
 }
@@ -171,4 +171,53 @@ section  .card-info{
 }
 .right-arrow{
     padding-bottom: 1.5rem;
+}
+.personal-details{
+    display: flex;
+    justify-content: space-between;
+}
+.personal-img{
+    /* border: 1px solid; */
+    position: relative;
+}
+.personal-info{
+    /* border: 1px solid; */
+    padding-left: 4rem;
+    margin-left: 6rem;
+    top: 50px;
+    padding-top: 15rem;
+}
+.inside-info-design{
+row-gap: 5px;
+    
+}
+.designation 
+{
+    display: flex;
+}
+
+.designation li {
+        
+        display: flex;
+        list-style: none;
+    }
+    .p-btn{
+        border: none;
+        background-color: #9249F2;
+        color: white;
+        width: Hug (221px)px;
+height: Hug (72px)px;
+padding: 20px 25px;
+gap: 12px;
+border-radius: 12px;
+    }
+.social-box{
+    border: 1px solid white;
+    border-radius: 5px;
+    bottom: 90px;
+    left: 190px;
+    padding: 1rem;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
 }
