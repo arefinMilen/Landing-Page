@@ -221,3 +221,34 @@ border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
 }
+.award{
+    border: 1px solid;
+    padding: 5rem;
+    background-color: #EAF7ED;
+}
+.awards-card{
+    padding-top: 20rem;
+    padding: 0 7rem;
+}
+.award-info{
+    /* border: 1px solid; */
+    height: 350px;
+    bottom: 150px;
+    padding: 0rem 3rem ;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 12px;
+    /* position: relative; */
+}
+.award-img{
+    /* border: 1px solid; */
+    bottom:220px;
+    /* position: absolute; */
+    /* display: block; */
+}
+.award-title{
+    font-size: 20px;
+}
+/* .award-des{
+    position: absolute;
+} */
