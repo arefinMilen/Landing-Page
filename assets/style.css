@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1920px;
+
+}
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -75,6 +79,11 @@ header nav ul li a:hover {
 /* .contact-btn:hover {
     background: #5548c5;
 } */
+
+/* main start */
+.corner-design{
+    display: inline;
+}
 .hero {
     display: flex;
     align-items: center;
@@ -222,7 +231,7 @@ border-radius: 12px;
     backdrop-filter: blur(10px);
 }
 .award{
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 5rem;
     background-color: #EAF7ED;
 }
@@ -252,3 +261,18 @@ border-radius: 12px;
 /* .award-des{
     position: absolute;
 } */
+ .service-wrap
+ {
+    display: flex;
+ }
+ .service-card{
+    background: linear-gradient(180deg, rgba(243, 236, 255, 0.4) 0%, rgba(243, 236, 255, 0) 100%);
+    padding: 3rem;
+
+ }
+ .service-design{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+    margin:1rem;
+     }
