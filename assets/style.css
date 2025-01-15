@@ -261,18 +261,59 @@ border-radius: 12px;
 /* .award-des{
     position: absolute;
 } */
+ /* service provide start */
+
  .service-wrap
  {
     display: flex;
  }
  .service-card{
     background: linear-gradient(180deg, rgba(243, 236, 255, 0.4) 0%, rgba(243, 236, 255, 0) 100%);
-    padding: 3rem;
-
+    padding: 7rem;
+    border: 1px solid;
+    
+ }
+ .work-together-btn
+ {
+    border: 1px solid;
+    padding: 1rem;
+    background-color: #9249F2;
+    color: white;
+    text-decoration: none;
+ }
+ .right-arrow
+ {
+   filter: invert(1);
+   padding: 1rem;
  }
  .service-design{
     border: 1px solid white;
     border-radius: 10px;
     background-color: #fff;
     margin:1rem;
+     }
+     /* work process */
+     .work-process
+     {
+        background: linear-gradient(180deg, rgba(232, 241, 252, 0.6) 0%, rgba(232, 241, 252, 0) 100%);
+
+     }
+     .work-heading
+     {
+        text-align: center;
+     }
+     .work-process-cards
+     {
+        display: flex;
+     }
+     .work-card{
+        padding: 1rem;
+        background-color: #fff;
+        margin: 1rem;
+        transition: all .3sec all;
+        border-radius: 16px;
+     }
+     .work-card:hover
+     {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      }
