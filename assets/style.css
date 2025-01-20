@@ -235,6 +235,10 @@ border-radius: 12px;
     padding: 5rem;
     background-color: #EAF7ED;
 }
+.award-header
+{
+    padding: 0 7rem;
+}
 .awards-card{
     padding-top: 20rem;
     padding: 0 7rem;
@@ -261,22 +265,29 @@ border-radius: 12px;
 /* .award-des{
     position: absolute;
 } */
+
+
  /* service provide start */
 
  .service-wrap
  {
     display: flex;
+    
  }
- .service-card{
+ .services{
     background: linear-gradient(180deg, rgba(243, 236, 255, 0.4) 0%, rgba(243, 236, 255, 0) 100%);
     padding: 7rem;
-    border: 1px solid;
     
+ }
+ .service-h2
+ {
+    font-size: 48px;
+    padding:24px 0;
  }
  .work-together-btn
  {
-    border: 1px solid;
     padding: 1rem;
+    bottom: 120px;
     background-color: #9249F2;
     color: white;
     text-decoration: none;
@@ -298,8 +309,19 @@ border-radius: 12px;
         background: linear-gradient(180deg, rgba(232, 241, 252, 0.6) 0%, rgba(232, 241, 252, 0) 100%);
 
      }
+     .work-wrap
+     {
+        padding: 3rem 5rem;
+     }
      .work-heading
      {
+        text-align: center;
+        
+     }
+     .work-heading p
+     {
+        margin-top: 0;
+        margin-bottom: 0;
         text-align: center;
      }
      .work-process-cards
@@ -316,4 +338,5 @@ border-radius: 12px;
      .work-card:hover
      {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: scale(1.1);
      }
