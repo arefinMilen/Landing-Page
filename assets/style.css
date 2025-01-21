@@ -340,3 +340,65 @@ border-radius: 12px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         transform: scale(1.1);
      }
+     /* skills section */
+     /* .container .skill-col
+     {
+        width: 100%;
+        border: 1px solid;
+     } */
+     .skill-wrap
+     {
+        display: flex;
+        
+     }
+     .skill-col-1
+     {
+        position: relative;
+        top: 168px;
+     }
+     .skill-col-1 p{
+        margin-bottom: 0;
+     }
+     .skills-set{
+        padding: 1rem 0;
+     }
+     .skill-bar
+     {
+        height: 4px;
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 10px;
+        background:rgba(0,0,0,0.1);
+     }
+    .skill-per{
+        position: relative;
+        display: block;
+        height: 100%;
+        border-radius: 8px;
+     }
+     .skill-tooltip{
+        position: relative;
+        right: -97%;
+        top: -32px;
+     }
+     .research-per{
+        background: #9249F2;
+        color: #9249F2;
+        width: 95%;
+     }
+    .experience-per{  
+        background: #1777E5;
+        color: #1777E5;
+        width: 87%;
+     }
+     .testing-per{
+        color: #2DB24A;
+        background: #2DB24A;
+        width: 91%;
+     }
+     .interaction-per{
+        color: #FF5F49;
+        background: #FF5F49;
+        width: 73%;
+     }
+     
