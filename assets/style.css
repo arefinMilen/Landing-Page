@@ -230,6 +230,7 @@ border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
 }
+/* award section  */
 .award{
     /* border: 1px solid; */
     padding: 5rem;
@@ -237,7 +238,7 @@ border-radius: 12px;
 }
 .award-header
 {
-    padding: 0 7rem;
+    padding: 1rem 7rem;
 }
 .awards-card{
     padding-top: 20rem;
@@ -255,8 +256,8 @@ border-radius: 12px;
 }
 .award-img{
     /* border: 1px solid; */
-    bottom:220px;
-    /* position: absolute; */
+    bottom:28px;
+    position: relative;
     /* display: block; */
 }
 .award-title{
@@ -401,4 +402,74 @@ border-radius: 12px;
         background: #FF5F49;
         width: 73%;
      }
-     
+     /* client section */
+     .client-testimonial
+     {
+        background: linear-gradient(180deg, rgba(240, 241, 243, 0.6) 0%, rgba(243, 236, 255, 0.6) 100%);
+        
+     }
+     .container2
+     {
+        width: 100%;
+        border: 1px solid;
+        box-sizing: border-box;
+        outline: none;
+        
+     }
+     .client-title
+     {
+        text-align: center;
+       padding-top:124px;
+        position: relative;
+        padding-bottom: 120px;
+     }
+     .client-title p {
+        margin: 0;
+        
+     }
+     .client-card{
+        align-items: center;
+        text-align: center;
+        width: 648px;
+        height: 302px;
+        top: 106px;
+        left: -36px;
+        gap: 32px;
+        border-radius: 16px;
+        opacity: 0.6px;
+        background-color: white;
+        color: #132238;
+        /* border: 1px solid; */
+        padding: 13px;
+        transition: all .3s ease-in-out;
+    }
+    .client-card img 
+    {
+        bottom: 45px;
+        position: relative;
+    }
+    .client-card:hover {
+        transform: scale(1, 1.2);
+        /* height: 358px; */
+        
+    }
+    .client2-img img {
+        bottom: 85px;
+    }
+    .client2-img p {
+        padding: 0px;
+        bottom: 20px;
+    }
+    .client-card .client-des2 {
+        bottom: 100px;
+        position: relative;
+    }
+    .client-btn
+    {
+        text-align: center;
+        top: 25px;
+        position: relative;
+    }
+    .client-btn a{
+        padding: 0px 5px;
+    }
