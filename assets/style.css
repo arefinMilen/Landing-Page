@@ -180,6 +180,8 @@ section  .card-info{
 }
 .right-arrow{
     padding-bottom: 1.5rem;
+    position: relative;
+    bottom: .5rem;
 }
 .personal-details{
     display: flex;
@@ -340,6 +342,7 @@ border-radius: 12px;
      {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         transform: scale(1.1);
+        transition: all .4s ease-in-out;
      }
      /* skills section */
      /* .container .skill-col
@@ -403,6 +406,7 @@ border-radius: 12px;
         width: 73%;
      }
      /* client section */
+
      .client-testimonial
      {
         background: linear-gradient(180deg, rgba(240, 241, 243, 0.6) 0%, rgba(243, 236, 255, 0.6) 100%);
@@ -410,11 +414,8 @@ border-radius: 12px;
      }
      .container2
      {
-        width: 100%;
-        border: 1px solid;
-        box-sizing: border-box;
-        outline: none;
-        
+        max-width: 1920px;
+        margin: 0 auto;
      }
      .client-title
      {
@@ -439,9 +440,7 @@ border-radius: 12px;
         opacity: 0.6px;
         background-color: white;
         color: #132238;
-        /* border: 1px solid; */
-        padding: 13px;
-        transition: all .3s ease-in-out;
+        transition: all .4s ease-in-out;
     }
     .client-card img 
     {
@@ -469,7 +468,29 @@ border-radius: 12px;
         text-align: center;
         top: 25px;
         position: relative;
+        margin:1rem 0rem  2rem 0rem;
     }
     .client-btn a{
         padding: 0px 5px;
+    }
+    .action img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .action .action-btn{
+        background-color: #FFD91A;
+        width: 272px;
+        height:72px;
+        padding: 0px 36px 0px 36px;
+        gap: 12px;
+        border-radius: 12px;
+        opacity: 0px;
+        border: none;
+        top: -110px;
+        left: 27px;
+        position: relative;
+    }
+    .action-right-arrow {
+        filter: invert(1);
+        position: absolute;
     }
