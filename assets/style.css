@@ -342,6 +342,14 @@ border-radius: 12px;
         transition: all .3sec all;
         border-radius: 16px;
      }
+     .work-card h2 {
+        font-size: 18px;
+        
+     }
+     .work-card p{
+        font-size: 14px;
+
+     }
      .work-card:hover
      {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -508,6 +516,8 @@ border-radius: 12px;
         /* left: -422px; */
         gap: 0px;
         opacity: 0.12px;
+        top: 350px;
+        position: relative;
         /* border: 1px solid; */
     }
     .right-upper {
@@ -515,6 +525,8 @@ border-radius: 12px;
         height: 357px;
         /* top: -101px; */
         /* left: 1666px; */
+        top: 350px;
+        position: relative;
         gap: 0px;
         opacity: 0.12px;
         
@@ -539,8 +551,8 @@ border-radius: 12px;
         gap: 12px;
         border-radius: 8px;
         opacity: 0px;
-
-
+        margin-top: 1rem;
+        position: absolute;
     }
     .art-r-arow {
         color: #9249F2;
@@ -563,6 +575,8 @@ border-radius: 12px;
     }
     .feed-contact h3 {
         color: #556070;
+        font-size: 14px;
+        margin-left: 1rem;
     }
     .feed-contact h3 span {
         color: black;
