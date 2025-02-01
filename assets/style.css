@@ -153,22 +153,27 @@ nav div ul li a:hover {
     flex-wrap: nowrap;
     gap: 10px;
     padding: 1rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1F3 52.14%);
+
 }
 .pro_name{
     text-align: center;
     padding: 2rem;
 }
 section  .card-info{
-    /* border: 1px solid red; */
+    
     flex: 1;
     /* max-width: 30%; */
     /* text-align: center; */
     margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 12px;
 }
 
 .card .card-info .projectImg{
     /* border: 1px solid; */
-    width: 472px;
+    width: 100%;
     height: 312px;
 }
 
