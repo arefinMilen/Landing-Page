@@ -1,12 +1,69 @@
 /* Mobile view responsiveness */
 @media only screen and (max-width: 600px) {
     
+    
+    .navbar-collapse ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-image {
+        direction: rtl; /* Added this line */
+    }
+    .hero-image img{
+       border: 1px solid black;
+         display: block;
+        margin-left: auto;
+          position: relative;
+    }
     .footer-menu ,.footer-menubar {
         font-size: 12px;
         text-align: center;
-        /* display: flex; */
-        
         flex-direction: column;
     }
+    .skill-col {
+
+        width: 80%;
+        margin: 0;
+      padding: 1rem 1rem;
+        bottom: -150px;
+        right: 180px;
+    }
+   .personal-info {
+        margin: 0;
+        padding: 0;
+    }
+    /* clients section */
+    .clients {
+        display: block;
+        position: relative;
+    }
+    .devider {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-collapse ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-menu ,.footer-menubar {
+        font-size: 12px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .skill-col {
+        width: 80%;
+        margin: 0;
+      padding: 1rem 1rem;
+        bottom: -150px;
+        right: 180px;
+    }
    
+    /* clients section */
+    .clients {
+        display: block;
+        position: relative;
+    }
+    
 }

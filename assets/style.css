@@ -18,7 +18,7 @@ body {
     color: #333;
     background: #f9f9f9;
 }
-header {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ header {
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-header .logo {
+nav .logo {
     font-size: 1.5rem;
     font-weight: bold;
     width:193px;
@@ -35,7 +35,7 @@ height:56px;
 opacity: 0px; */
 position: relative;
 }
-header .logotext{
+nav .logotext{
     font-size: 10px;
     padding-left: 2rem;
     margin-top: -4px;
@@ -43,24 +43,24 @@ header .logotext{
     font-weight: lighter;
     position: absolute;
 }
-header div .logoname{
+nav div .logoname{
     font-size: 16px;
     /* border: 1px solid ; */
     top: -15px;
     /* margin-top: -10px; */
 }
-header nav ul {
+nav div ul {
     list-style: none;
     display: flex;
     gap: 1rem;
     
 }
-header nav ul li a {
+nav div ul li a {
     text-decoration: none;
     color: #333;
     transition: color 0.3s;
 }
-header nav ul li a:hover {
+nav div ul li a:hover {
     color: #6c63ff;
 }
 .contact-btn {
@@ -195,6 +195,11 @@ section  .card-info{
     /* border: 1px solid; */
     position: relative;
 }
+.brand2-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 .personal-info{
     /* border: 1px solid; */
     padding-left: 4rem;
@@ -251,12 +256,11 @@ border-radius: 12px;
     padding: 0 7rem;
 }
 .award-info{
-    /* border: 1px solid; */
-    height: 350px;
+    height: auto;
     bottom: 150px;
     padding: 0rem 3rem ;
     background-color: #fff;
-    margin: 1rem;
+    margin:2rem 1rem;
     border-radius: 12px;
     /* position: relative; */
 }
@@ -336,6 +340,8 @@ border-radius: 12px;
         display: flex;
      }
      .work-card{
+        width: 312px;
+        height: 272px;
         padding: 1rem;
         background-color: #fff;
         margin: 1rem;
@@ -357,23 +363,25 @@ border-radius: 12px;
         transition: all .4s ease-in-out;
      }
      /* skills section */
-     /* .container .skill-col
-     {
-        width: 100%;
-        border: 1px solid;
-     } */
+    
      .skill-wrap
      {
         display: flex;
-        
      }
-     .skill-col-1
+     .skill-col-card
      {
         position: relative;
         top: 168px;
      }
-     .skill-col-1 p{
+     .skill-col-card p{
         margin-bottom: 0;
+     }
+     .skill-col {
+        
+        position: relative;
+        width: 536px;
+        height: 646px;
+        right: 130px;
      }
      .skills-set{
         padding: 1rem 0;
@@ -443,8 +451,8 @@ border-radius: 12px;
      .client-card{
         align-items: center;
         text-align: center;
-        width: 648px;
-        height: 302px;
+        width: auto;
+        height: auto;
         top: 106px;
         left: -36px;
         gap: 32px;
@@ -453,6 +461,15 @@ border-radius: 12px;
         background-color: white;
         color: #132238;
         transition: all .4s ease-in-out;
+    }
+    .client-card h3 {
+        color: #697484;
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+    .client-designation {
+        color: black;
     }
     .client-card img 
     {

@@ -10,11 +10,16 @@
     <title>Hano Kurou</title>
 </head>
 <body>
-    <header>
-        <div class="logo"><img src="/assets/photo/Logo.svg" alt="">
-        <!-- <span class="logoname">Hano Kurou</span><br> <span class="logotext">UI/UX DESIGNER</span> -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+        <div class="logo navbar-brand d-flex justify-content-between"><img src="/assets/photo/Logo.svg" alt="logo">
         </div>
-        <nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        <!-- <span class="logoname">Hano Kurou</span><br> <span class="logotext">UI/UX DESIGNER</span> -->
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
@@ -23,9 +28,9 @@
                 <li><a href="#article">Article</a></li>
                 <li><a  href="#contact" class="contact-btn"><img class="send" src="/assets/photo/message.svg" alt="">Send Message</a></li>
             </ul>
-        </nav>
-        
-    </header>
+        </div>
+    </div>
+    </nav>
     <main>
         <!-- <section class="corner-design">
             <img src="/assets/photo/Ellipse-1.svg" alt="">
@@ -33,7 +38,8 @@
             <img src="/assets/photo/Ellipse-5.svg" alt="">
         </section> -->
         <section class="hero">
-            <div class="intro">
+            <div class="row">
+            <div class="intro col-lg-6 col-md-6 col-sm-12">
                 <h1>👋 Hey There, I'm <br> <span>Hano Kurou</span></h1>
                 <p>Product Designer and UI/UX in Tokyo. I specialize in User Experience Design, User Research, Product Design, and User Interface Design.</p>
                 <div class="buttons">
@@ -41,9 +47,10 @@
                     <a href="#cv" class="btn btn-secondary"><i class="fa-solid fa-download" style="padding-right: 3px;"></i>Download CV</a>
                 </div>
             </div>
-            <div class="hero-image">
+            <div class="hero-image col-lg-6 col-md-6 col-sm-12">
                 <img src="/assets/photo/Image.svg" alt="Hano Kurou">
             </div>
+        </div>
         </section>
         <section class="clients">
             <div class="client_num">
@@ -64,7 +71,7 @@
 <section class="card">
     <h2 class="pro_name">Recent Projects</h2>
      <div class="row">
-    <div class="card-info col-3">
+    <div class="card-info col-lg-3 col-sm-12">
         <img class="projectImg" src="/assets/photo/project1.svg" alt="">
         <span class="card-designation">UI Design / Brand Identity</span>
         <h2 class="card-title">
@@ -75,7 +82,7 @@
         </p>
         <a class="pro_link" href="#">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
     </div>
-    <div class="card-info col-3">
+    <div class="card-info col-lg-3 col-sm-12">
         <img class="projectImg" src="/assets/photo/project2.svg" alt="">
         <span class="card-designation">UI Design / Brand Identity</span>
         <h2 class="card-title">
@@ -86,7 +93,7 @@
         </p>
         <a class="pro_link" href="#">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
     </div>
-    <div class="card-info col-3">
+    <div class="card-info col-lg-3 col-sm-12">
         <img class="projectImg" src="/assets/photo/project3.svg" alt="">
         <span class="card-designation">UI Design / Brand Identity</span>
         <h2 class="card-title">
@@ -105,9 +112,10 @@
 </section>
 <!-- personal details section -->
 <section class="personal-details">
+    <div class="container">
 <div class="row">
-    <div class="personal-img col-6">
-        <img src="/assets/photo/brand2.svg" alt="">
+    <div class="personal-img col-lg-6 col-sm-12">
+        <img class="brand2-img"  src="/assets/photo/brand2.svg" alt="">
         <div class="social-box">
             <h2 class="social-box-title" style="font-size: 16px;">Follow me social media</h2>
             <div class="social-links">
@@ -132,7 +140,7 @@
             </div>
         </div>
     </div>
-    <div class="personal-info col-4">
+    <div class="personal-info col-lg-4 col-sm-12">
 <ul class="designation">
     <li class="desiner" ><img src="/assets/photo/🔥 Designer.svg" alt=""></li>
     <li class="instructor"><img src="/assets/photo/📚 Instructor.svg" alt=""></li>
@@ -147,6 +155,7 @@
 <button class="p-btn"><i class="fa-solid fa-download" style="padding-right: 3px;"></i> Download CV</button>
     </div>
 </div>
+</div>
 </section>
 <!-- awards starts -->
 <section class="award">
@@ -157,17 +166,17 @@
         </div>
         <div class="row awards-card">
     
-            <div class="award-info col-3">
+            <div class="award-info col-lg-3 col-md-3 col-sm-12">
                 <img class="award-img" src="/assets/photo/award (1).svg" alt="">
                 <h2 class="award-title">UX Designer Awards 2022</h2>
                 <p class="award-des" >I proudly present all winners and nominees of the first participation call for the UX Design Awards 2022!</p>
             </div>
-            <div class=" award-info col-3">
+            <div class=" award-info col-lg-3 col-md-3 col-sm-12">
                 <img class="award-img" src="/assets/photo/award (2).svg" alt="">
                 <h2 class="award-title">UI Designer of The Day</h2>
                 <p class="award-des">I proudly present all winners and nominees of the first participation call for the UX Design Awards 2022!</p>
             </div>
-            <div class=" award-info col-3">
+            <div class=" award-info col-lg-3 col-md-3 col-sm-12">
                 <img class="award-img" src="/assets/photo/award (3).svg" alt="">
                 <h2 class="award-title">Best UI/UX Designer of May 2021</h2>
                 <p class="award-des">I proudly present all winners and nominees of the first participation call for the UX Design Awards 2022!</p>
@@ -180,15 +189,15 @@
 <!-- service-provide -->
 <section class="services">
 <div class="container">
-    <div class="service-wrap">
-        <div  class="service-card  col-6">
+    <div class="service-wrap row">
+        <div  class="service-card  col-lg-6 col-sm-12">
             <img src="./assets/photo/Badge.svg" alt="service-badge">
             <h2 class="service-h2">Services i provide</h2>
             <p>I will help you with fingin a solution and solve your problems, We use process design to create digital product. besids that also help their business.</p>
             <p>We use process design to create digital products. besids that also help their business</p> <br> 
             <a href="#" class="work-together-btn ">Let's Work Together <span><img class="right-arrow" src="./assets/photo/ArrowRight.svg" alt=""></span></a>
         </div>
-        <div class="service-card col-6">
+        <div class="service-card col-lg-6 col-sm-12">
             <div class="service-design">
                 <img src="./assets/photo/Illustration-ex.svg" alt="user experience design">
                 <h2>User Experience Design</h2>
@@ -211,14 +220,13 @@
 <!-- work process -->
  <section class="work-process">
     <div class="container">
-        <div class="work-wrap row">
-            <div class="work-heading">
-                <h2>My work process</h2>
-    <p>Nulla ex augue, rhoncus sit amet rutrum ut, vestibulum non</p> 
-    <p>nisl. Etiam imperdiet quam pretium rhoncus aliquam.</p>
-            </div>
-            <div class="work-process-cards">
-            <div class="work-card col-3">
+        <div class="work-heading">
+            <h2>My work process</h2>
+<p>Nulla ex augue, rhoncus sit amet rutrum ut, vestibulum non</p> 
+<p>nisl. Etiam imperdiet quam pretium rhoncus aliquam.</p>
+        </div>
+        <div class="work-wrap row ">
+            <div class="work-card col-lg-3 col-md-6 col-sm-12">
                 <img src="./assets/photo/Introductions.svg" alt="introductions-icons">
                 <h2>1.Introductions</h2>
                 <p>Morbi nunc nibh, ultrices in ligula et, volutpat suscipit lorem. Quique finibus, lectus in lacinia fauc.</p>
@@ -238,7 +246,7 @@
                 <h2>4. Usability Testing</h2>
                 <p>Morbi nunc nibh, ultrices in ligula et, volutpat suscipit lorem. Quique finibus, lectus in lacinia fauc.</p>
             </div>
-        </div>
+        
         </div>
     </div>
  </section>
@@ -246,7 +254,7 @@
   <section class="skills">
     <div class="container">
         <div class="skill-wrap row">
-            <div class="skill-col-1 col-lg-6 col-md-6 col-sm-12">
+            <div class="skill-col-card col-lg-6 col-md-6 col-sm-12">
                <h2 class="skills-header">
                 My skill is my  power.</h2>
                  <p>Maecenas nec sapien ac nulla eleifend ultrices. Maecenas </p> <p> non sagittis dui. Donec eleifend nisi id felis.</p>
@@ -275,8 +283,8 @@
                  </div>
                  </div>
             </div>
-            <div class="skill-col col-lg-6 col-md-6 col-sm-12">
-                <img src="./assets/photo/skill-profile-img.svg" alt="">
+            <div class="skill-col col-lg-6 col-md-12 col-sm-12">
+                <img class="brand2-img" src="./assets/photo/skill-profile-img.svg" alt="">
             </div>
         </div>
     </div>
@@ -293,9 +301,9 @@
             <img src="./assets/photo/client1.svg" alt="client-photo">
             <p class="client-quote">“Kevin is very hard and great worker. He thinks about prolem, find solution and has a awesome working morale”</p>
             <h2 class="client-name">Esther Howard</h2>
-            <h3>Chief Executive Officer of <span class="client-designation">GIGL</span></h3>
+            <h3 style="color: #697484;">Chief Executive Officer of <span class="client-designation" style="color: black;">GIGL</span></h3>
         </div>
-        <div class="client-card col-4 client2-img">
+        <div class="client-card   col-4 client2-img">
             <img src="./assets/photo/client-2.svg" alt="client-photo">
             <div class="client-des2">
                 <p class="client-quote2">“Kevin Did a wonderful job animating set of static stickers. Work was done very quickly and the quality is outstanding. she managed to create great looking, flawless animation even with very limited number of frames allowed per stickers”</p>
@@ -303,7 +311,7 @@
                 <h3>Chief Executive Officer of <span class="client-designation">GIGL</span></h3>
             </div>
         </div>
-        <div class="client-card col-4">
+        <div class="client-card   col-4">
             <img src="./assets/photo/client3.svg" alt="client-photo">
             <p class="client-quote">Great Designer, does great work and is very flexible with change. if you’re a programmer and are looking for UI/UX designer is definitely well qualified for the job.</p>
             <h2 class="client-name">Savannah Nguyen</h2>
