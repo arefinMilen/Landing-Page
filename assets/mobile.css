@@ -6,14 +6,17 @@
         flex-direction: column;
         text-align: center;
     }
+    .hero{
+        padding: 1rem;
+    }
     .hero-image {
-        direction: rtl; /* Added this line */
+        direction: rtl;
     }
     .hero-image img{
-       border: 1px solid black;
-         display: block;
-        margin-left: auto;
-          position: relative;
+      margin: 0 auto;
+    }
+    .right-upper {
+        display: none;
     }
     .footer-menu ,.footer-menubar {
         font-size: 12px;
@@ -25,22 +28,43 @@
         width: 80%;
         margin: 0;
       padding: 1rem 1rem;
-        bottom: -150px;
-        right: 180px;
+        /* bottom: -150px; */
+        right: 0px;
     }
+.skill-col .brand2-img {
+    align-items: center;
+   left: 130px;
+   position:absolute;
+  
+}
    .personal-info {
         margin: 0;
         padding: 0;
+    }
+    .award-header {
+        padding: 1rem;
+    }
+    .awards-card {
+        padding: 1rem;
+        margin: 1rem;
     }
     /* clients section */
     .clients {
         display: block;
         position: relative;
     }
-    .devider {
-        display: none;
+    .client_num {
+        padding: 1rem;
     }
-}
+   .feed-social-box {
+    border: 1px solid black;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    }
+   }
+
 
 @media only screen and (max-width: 768px) {
     .navbar-collapse ul{
