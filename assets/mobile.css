@@ -56,8 +56,11 @@
     .client_num {
         padding: 1rem;
     }
+    .client-card {
+        padding: 1rem;
+        margin: 1rem;
+    }
    .feed-social-box {
-    border: 1px solid black;
     width: 60%;
     height: auto;
     margin: 0 auto;
