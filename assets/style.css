@@ -202,7 +202,7 @@ section  .card-info{
     padding-bottom: 1.5rem;
     position: relative;
     bottom: .5rem;
-    border: 1px solid;
+    /* border: 1px solid; */
     filter: convert(1);
 }
 .personal-details{
@@ -231,14 +231,15 @@ section  .card-info{
 }
 .designation 
 {
-    display: flex;
+    padding: 0px;
+    margin:3px auto;
 }
 
-.designation li {
+/* .designation li {
         
     display: flex;
     list-style: none;
-    }
+    } */
 .p-btn{
     border: none;
     background-color: #9249F2;
@@ -332,11 +333,23 @@ section  .card-info{
    padding: 1rem;
  }
  .service-design{
-    height: 136px;
+    /* height: 136px; */
     border: 1px solid white;
     border-radius: 10px;
     background-color: #fff;
     /* margin:1rem; */
+     }
+     .service-design img {
+        padding: 12px;
+     }
+     .service-content{
+        padding: 1rem;
+     }
+     .service-design h2 {
+        font-size: 20px;
+     }
+     .service-design span {
+        font-size: 14px;
      }
      /* work process */
      .work-process
@@ -542,7 +555,7 @@ section  .card-info{
 
     /* article section */
 .articles{
-        background: linear-gradient(180deg, #F0F1F3 0%, rgba(240, 241, 243, 0) 100%);
+    background: linear-gradient(180deg, #F0F1F3 0%, rgba(240, 241, 243, 0) 100%);
 
 }
     .article-card-wrap {
@@ -574,17 +587,23 @@ section  .card-info{
         opacity: 0px;
         background: white;
     }
+    .article-card:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: scale(1.1);
+        transition: all .4s ease-in-out;
+    }
+    .art-card-des {
+        margin-bottom: 36px;
+    }
     .art-btn  {
         color: #9249F2;
         text-decoration: none;
-        border: 2px solid #F4EDFE;
+        border: 2px solid #9249F2;
         width:  161px  ;
         height:  56px ;
         padding:20px  24px;
         gap: 12px;
         border-radius: 8px;
-        opacity: 0px;
-        margin-top: 1rem; 
     }
     .art-r-arow {
         color: #9249F2;
@@ -614,7 +633,7 @@ section  .card-info{
         color: black;
     }
     .feed-social-box {
-        width:424px;
+        width:384px;
         height:152px;
         padding:32px;
         border-radius:16px;
