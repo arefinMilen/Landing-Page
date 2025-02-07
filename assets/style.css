@@ -12,7 +12,9 @@ ul,li,a{
     list-style: none;
 }
 .container{
-    max-width: 1920px;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 body {
     font-family: 'Arial', sans-serif;
@@ -20,11 +22,7 @@ body {
     color: #333;
     background: #f9f9f9;
 }
-nav {
-    
-    display: flex;
-    justify-content: evenly;
-}
+
 
 nav div ul {
     list-style: none;
@@ -54,25 +52,52 @@ nav div ul li a:hover {
     padding-top: -1px;
 
 }
-
-/* main start */
-.corner-design{
-    display: inline;
+.nav-item {
+    border: 1px solid red;
 }
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 15rem;
-    background: linear-gradient(to right, #f9f9f9, #fff);
+.nav-content-list{
+    border:1px solid red;
+    left: 320px;
+    align-items: right;
+    display: inline;
+    padding-left: 0px;
     position: relative;
 }
+/* main start */
+.hero {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 15rem; */
+    background: linear-gradient(to right, #f9f9f9, #fff);
+    /* position: relative; */
+    border: 1px solid;
+}
+
+.hero .hero-side-img1{
+    position: absolute;
+    right: 534px;
+    border: 1px solid red;
+}
+
 .hero .intro {
-    max-width: 50%;
+    max-width: 100%;
+    /* border: 1px solid black; */
+    width: 536px;
+    height: 364px;
+    top: 320px;
+    position: relative;
+}
+.hero .intro h1 {
+    font-size: 48px;
+    font-weight: 600;
+    
 }
 .hero h1 span {
     color: #6c63ff;
     text-decoration: underline;
+    font-size: 64px;
+    font-weight: 600;
 }
 .hero .buttons .btn {
     display: inline-block;
@@ -90,8 +115,12 @@ nav div ul li a:hover {
     color: #333;
 }
 .hero-image img {
-    max-width: 400px;
+    width: 652px;
+    height: 1086px;
+    top: 120px;
+    position: relative;
     border-radius: 10px;
+    /* border: 1px solid; */
 }
 .clients {
     text-align: center;
@@ -100,20 +129,35 @@ nav div ul li a:hover {
     margin-top: 2rem;
     /* border: 1px solid; */
     position: absolute;
-    bottom: -80px;
+    bottom: -522px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
 }
+.client-logos {
+    /* border: 1px solid;   */
+    max-width: 1320px;
+    /* gap: 20px; */
+    text-align: left;
+}
 .clients .client-logos img {
-    max-height: 50px;
-    margin: 0 1rem;
+    /* max-height: 50px; */
+    width: 200px;
+    height: 96px;
+    /* gap: 10px; */
+    /* margin: 0 5px; */
+    border-radius: 12px;
+    /* gap: 10px; */
+    /* border: 1px solid; */
 }
 
+.client-logos img:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .client_num{
     display: flex;
     justify-content: space-between;
-    padding-left: 13rem;
+    padding-left: 5rem;
     text-align: left;
     padding-right: 2rem;
 }
@@ -159,6 +203,8 @@ section  .card-info{
     padding-bottom: 1.5rem;
     position: relative;
     bottom: .5rem;
+    border: 1px solid;
+    filter: convert(1);
 }
 .personal-details{
     display: flex;
@@ -228,11 +274,13 @@ section  .card-info{
     padding: 0 7rem;
 }
 .award-info{
+    width: 424px;
     height: auto;
     bottom: 150px;
-    padding: 0rem 3rem ;
+    /* border:1px solid; */
+    /* padding: 0rem 1rem ; */
     background-color: #fff;
-    margin:2rem 1rem;
+    /* margin:2rem 1rem; */
     border-radius: 12px;
 }
 .award-img{
@@ -241,6 +289,9 @@ section  .card-info{
 }
 .award-title{
     font-size: 20px;
+}
+.award-des {
+    font-size: 14px;
 }
  /* service provide start */
  .service-wrap
@@ -252,6 +303,16 @@ section  .card-info{
     background: linear-gradient(180deg, rgba(243, 236, 255, 0.4) 0%, rgba(243, 236, 255, 0) 100%);
     padding: 7rem;
     
+ }
+ .service-card {
+    width: 536px;
+    height: 402px;
+    /* border: 1px solid; */
+ }
+ .service-card-2 {
+    width: 536px;
+    height: 456px;
+    /* border: 1px solid; */
  }
  .service-h2
  {
@@ -272,10 +333,11 @@ section  .card-info{
    padding: 1rem;
  }
  .service-design{
+    height: 136px;
     border: 1px solid white;
     border-radius: 10px;
     background-color: #fff;
-    margin:1rem;
+    /* margin:1rem; */
      }
      /* work process */
      .work-process
@@ -284,7 +346,7 @@ section  .card-info{
      }
      .work-wrap
      {
-        padding: 3rem 5rem;
+        padding: 3rem 0rem;
      }
      .work-heading
      {
@@ -301,13 +363,15 @@ section  .card-info{
         display: flex;
      }
      .work-card{
-        width: 312px;
-        height: 272px;
-        padding: 1rem;
+        width: 212px;
+        height: auto;
+        /* padding: 1rem; */
         background-color: #fff;
-        margin: 1rem;
+        /* margin: 1rem; */
         transition: all .3sec all;
         border-radius: 16px;
+        margin: 0 0;
+        
      }
      .work-card h2 {
         font-size: 18px; 
@@ -336,11 +400,8 @@ section  .card-info{
         margin-bottom: 0;
      }
      .skill-col {
-        
-        position: relative;
         width: 536px;
         height: 646px;
-        right: 130px;
      }
      .skills-set{
         padding: 1rem 0;
@@ -392,7 +453,7 @@ section  .card-info{
      }
      .container2
      {
-        max-width: 1920px;
+        max-width: 1320px;
         margin: 0 auto;
      }
      .client-title
