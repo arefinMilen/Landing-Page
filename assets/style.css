@@ -71,7 +71,6 @@ nav div ul li a:hover {
     padding: 1rem 15rem; */
     background: linear-gradient(to right, #f9f9f9, #fff);
     /* position: relative; */
-    border: 1px solid;
 }
 
 .hero .hero-side-img1{
@@ -267,11 +266,11 @@ section  .card-info{
 }
 .award-header
 {
-    padding: 1rem 7rem;
+    padding: 1rem 0rem;
 }
 .awards-card{
-    padding-top: 20rem;
-    padding: 0 7rem;
+    padding-top: 2rem;
+    /* padding: 0 7rem; */
 }
 .award-info{
     width: 424px;
