@@ -88,14 +88,14 @@ nav div ul li a:hover {
     position: relative;
 }
 .hero .intro h1 {
-    font-size: 48px;
+    font-size: clamp(20px,5vw,48px);
     font-weight: 600;
     
 }
 .hero h1 span {
     color: #6c63ff;
     text-decoration: underline;
-    font-size: 64px;
+    font-size: clamp(24px,5vw,64px);
     font-weight: 600;
 }
 .hero .buttons .btn {
@@ -114,8 +114,8 @@ nav div ul li a:hover {
     color: #333;
 }
 .hero-image img {
-    width: 652px;
-    height: 1086px;
+    /* width: 652px;
+    height: 1086px; */
     top: 120px;
     position: relative;
     border-radius: 10px;
@@ -139,9 +139,14 @@ nav div ul li a:hover {
     /* gap: 20px; */
     text-align: left;
 }
+.client_num h2{
+    font-size:clamp(14px,4vw,24px) !important;
+    font-weight: 600;
+    
+}
 .clients .client-logos img {
     /* max-height: 50px; */
-    width: 200px;
+    width: 16%;
     height: 96px;
     /* gap: 10px; */
     /* margin: 0 5px; */
@@ -168,7 +173,7 @@ nav div ul li a:hover {
     gap: 10px;
     padding: 1rem;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1F3 52.14%);
-
+    top: 320px;
 }
 .pro_name{
     text-align: center;
@@ -482,11 +487,6 @@ section  .card-info{
      .client-card{
         align-items: center;
         text-align: center;
-        width: auto;
-        height: auto;
-        top: 106px;
-        left: -36px;
-        gap: 32px;
         border-radius: 16px;
         opacity: 0.6px;
         background-color: white;
