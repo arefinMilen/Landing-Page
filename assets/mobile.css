@@ -1,4 +1,84 @@
 /* Mobile view responsiveness */
+@media only screen and (max-width: 1290px) {
+    .card {
+        top: 270px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .card {
+        top: 400px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .hero .intro{
+    width: 60%;
+    }
+    .hero-image {
+        width: 40%;
+        position: relative;
+        top: 190px;
+    }
+    .card {
+        position: relative;
+        top: 680px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar-collapse ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero .intro {
+        position: relative;
+        top: 122px;
+        
+    }
+    .hero-image{
+        position: relative !important;
+        margin-top: 50px !important;
+        /* border: 1px solid ; */
+        
+    }
+    .hero-image img{
+        position: relative !important;
+        margin-top: -230px !important;
+        /* border: 1px solid ; */
+    }
+        
+    .btm-ellip-img {
+        position: relative !important;
+        /* border: 1px solid ; */
+        top: 1290px !important;
+    }
+    .footer-menu ,.footer-menubar {
+        font-size: 12px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .skill-col {
+        width: 80%;
+        margin: 0;
+      padding: 1rem 1rem;
+        bottom: -150px;
+        right: 180px;
+    }
+   
+    /* clients section */
+    .clients {
+        /* display: block; */
+        position: relative;
+        top: 5px;
+        /* border: 1px solid; */
+    }
+    .card {
+        position: relative !important;
+        top: 700px !important;
+        margin-top: -675px !important;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     
     
@@ -19,8 +99,8 @@
         display: none;
     }
     .card {
-        position: relative;
-        top: 1198px !important;
+        position: relative !important;
+        top: 698px !important;
     }
     .footer-menu ,.footer-menubar {
         font-size: 12px;
@@ -82,88 +162,17 @@
     }
    }
 
-
-@media only screen and (max-width: 768px) {
-    
-    .navbar-collapse ul{
-        flex-direction: column;
-        text-align: center;
-    }
-    .hero .intro {
-        position: relative;
-        top: 122px;
-        
-    }
-    .hero-image{
-        position: relative !important;
-        margin-top: 50px !important;
-        /* border: 1px solid ; */
-        
-    }
-    .hero-image img{
-        position: relative !important;
-        margin-top: -230px !important;
-        /* border: 1px solid ; */
-    }
-        
-    .btm-ellip-img {
-        position: relative !important;
-        /* border: 1px solid ; */
-        top: 1290px !important;
-    }
-    .footer-menu ,.footer-menubar {
-        font-size: 12px;
-        text-align: center;
-        flex-direction: column;
-    }
-    .skill-col {
-        width: 80%;
-        margin: 0;
-      padding: 1rem 1rem;
-        bottom: -150px;
-        right: 180px;
-    }
-   
-    /* clients section */
-    .clients {
-        /* display: block; */
-        position: relative;
-        top: 5px;
-        /* border: 1px solid; */
-    }
-    .card {
-        position: relative !important;
-        top: 770px !important;
-        margin-top: -675px !important;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .hero .intro{
-    width: 60%;
-    }
-    .hero-image {
-        width: 40%;
-        position: relative;
-        top: 190px;
-    }
-    .card {
-        position: relative;
-        top: 680px !important;
-    }
-}
-@media only screen and (max-width: 1200px) {
-    .card {
-        top: 400px;
-    }
-}
-
 @media only screen and (max-width: 367px) {
     .hero-image{
         position: relative !important;
         margin-top: 150px !important;
         /* border: 1px solid ; */
         
+    }
+    .card {
+        position: relative !important;
+        top: 100px !important;
+        margin-top: -120px !important;
     }
     .btm-ellip-img {
         position: relative !important;
