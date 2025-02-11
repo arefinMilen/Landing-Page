@@ -117,8 +117,9 @@
     }
 .skill-col .brand2-img {
     align-items: center;
-   left: 130px;
-   position:absolute;
+   left: -50px;
+   top: 150px !important;
+   position:relative !important;
   
 }
    .personal-info {
