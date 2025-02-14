@@ -1,12 +1,43 @@
 /* Mobile view responsiveness */
 @media only screen and (max-width: 1290px) {
+    
     .card {
-        top: 270px;
+        top: 70px;
+    }
+    .brandGroupImg{
+        width: 100%;
+        max-width: 400px;
     }
 }
 @media only screen and (max-width: 1200px) {
+    .hero-image {
+        position: relative;
+        top: 180px;
+    }
     .card {
-        top: 400px;
+        top: 200px;
+    }
+    .personal-details {
+        position: relative !important;
+        top: 380px !important;
+    }
+    /* personal section  */
+    /* .personal-img {
+        position: relative !important;
+        top: 240px !important; 
+    } */
+    /* .personal-img img {
+        position: relative !important;
+        top: 0px !important;
+    } */
+    /* .personal-info {
+        position: relative;
+        top: 140px;
+        z-index: 10;
+    } */
+    .brandGroupImg {
+        width: 90%;
+        max-width: 400px;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -16,11 +47,11 @@
     .hero-image {
         width: 40%;
         position: relative;
-        top: 190px;
+        top: 370px;
     }
     .card {
         position: relative;
-        top: 680px !important;
+        top: 470px !important;
     }
 }
 
@@ -31,26 +62,33 @@
         text-align: center;
     }
     .hero .intro {
-        position: relative;
-        top: 122px;
-        
+        position: absolute !important;
+        top: 330px !important;
+        /* border: 1px solid; */
     }
     .hero-image{
         position: relative !important;
-        margin-top: 50px !important;
-        /* border: 1px solid ; */
+        top: -20px !important;
+        /* border: 1px solid black; */
         
     }
     .hero-image img{
         position: relative !important;
-        margin-top: -230px !important;
-        /* border: 1px solid ; */
+        top: -70px !important;
+        /* border: 1px solid black; */
     }
         
     .btm-ellip-img {
         position: relative !important;
         /* border: 1px solid ; */
-        top: 1290px !important;
+        top: 890px !important;
+    }
+    /* clients section */
+    .clients {
+        /* display: block; */
+        position: relative !important;
+        top: -300px !important;
+        /* border: 1px solid; */
     }
     .footer-menu ,.footer-menubar {
         font-size: 12px;
@@ -65,17 +103,11 @@
         right: 180px;
     }
    
-    /* clients section */
-    .clients {
-        /* display: block; */
-        position: relative;
-        top: 5px;
-        /* border: 1px solid; */
-    }
+    
     .card {
         position: relative !important;
-        top: 700px !important;
-        margin-top: -675px !important;
+        top: -310px !important;
+        /* margin-top: 0px !important; */
     }
 }
 
@@ -89,19 +121,27 @@
     .hero{
         padding: 1rem;
     }
-    .hero-image {
+    /* .hero-image {
         direction: rtl;
-    }
+    } */
     .hero-image img{
-      margin: 0 auto;
+      /* margin: 0 auto; */
+      position: relative !important;
+      top: 90px !important;
+      /* border: 1px solid; */
     }
-    .right-upper {
+    .btm-ellip-img {
+        position: absolute !important;
+        
+    }
+    /* .right-upper {
         display: none;
-    }
+    } */
     .card {
         position: relative !important;
-        top: 698px !important;
+        top: -300px !important;
     }
+    
     .footer-menu ,.footer-menubar {
         font-size: 12px;
         text-align: center;
@@ -142,7 +182,8 @@
     /* clients section */
     .clients {
         /* display: block; */
-        position: relative;
+        position: relative !important;
+        top: -260px !important;
     }
     .btm-ellip-img {
         position: relative !important;
@@ -162,8 +203,26 @@
     display: block;
     }
    }
-
+@media only screen and (max-width: 455px) {
+    .hero-image {
+        position: relative !important;
+        top: 150px !important;
+    }
+    .clients {
+        position: relative!important;
+        top: 5px !important;
+    }
+    .card {
+        position:  relative !important;
+        top: 7px !important;
+    }
+}
 @media only screen and (max-width: 367px) {
+    .intro {
+        position: relative !important;
+        top: 580px !important;
+        /* border: 1px solid ; */
+    }
     .hero-image{
         position: relative !important;
         margin-top: 150px !important;
