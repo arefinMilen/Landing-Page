@@ -66,10 +66,7 @@
         top: 140px;
         z-index: 10;
     } */
-    .brandGroupImg {
-        /* width: 90%;
-        max-width: 400px; */
-    }
+    
 }
 @media only screen and (max-width: 992px) {
     .hero .intro{
@@ -194,9 +191,13 @@
         align-items: center;
         transform: translate(2%,-2%);
     }
-    /* .p-btn {
-        padding-bottom: 1rem !important;
-    } */
+    /* award section */
+
+    .award-info {
+        width: 95% !important;
+        margin-bottom: 2.5rem !important;
+    }
+
     .footer-menu ,.footer-menubar {
         font-size: 12px;
         text-align: center;
@@ -391,9 +392,6 @@
     }
     .personal-details {
         padding-top: 40rem !important;
-    }
-    .social-box {
-
     }
     .personal-info {
      top: 440px !important;

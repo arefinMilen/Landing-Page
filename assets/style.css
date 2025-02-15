@@ -305,8 +305,7 @@ section  .card-info{
 .award{
     padding: 5rem;
     background-color: #EAF7ED;
-    /* top: 420px;
-    position: relative; */
+    
 }
 .award-header
 {
@@ -317,7 +316,7 @@ section  .card-info{
     /* padding: 0 7rem; */
 }
 .award-info{
-    width: 424px;
+    width: 32% !important;
     height: auto;
     bottom: 150px;
     /* border:1px solid; */
