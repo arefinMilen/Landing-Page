@@ -198,6 +198,12 @@
         margin-bottom: 2.5rem !important;
     }
 
+    /* work section  */
+    .work-card {
+        width: 48% !important; 
+        margin-bottom: 2rem !important;
+    }
+
     .footer-menu ,.footer-menubar {
         font-size: 12px;
         text-align: center;
@@ -267,6 +273,12 @@
 }
 .social-links img {
     width: 80%;
+}
+/* work section  */
+.work-card {
+    width: 95% !important; 
+    margin-bottom: 2rem !important;
+    margin-left: 10px;
 }
     .footer-menu ,.footer-menubar {
         font-size: 12px;

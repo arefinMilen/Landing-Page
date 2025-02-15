@@ -398,8 +398,7 @@ section  .card-info{
      .work-process
      {
         background: linear-gradient(180deg, rgba(232, 241, 252, 0.6) 0%, rgba(232, 241, 252, 0) 100%);
-        /* position: relative;
-        top: 450px; */
+        padding: 4rem 0;
      }
      .work-wrap
      {
@@ -420,7 +419,7 @@ section  .card-info{
         display: flex;
      }
      .work-card{
-        width: 212px;
+        width: 24% !important;
         height: auto;
         /* padding: 1rem; */
         background-color: #fff;
