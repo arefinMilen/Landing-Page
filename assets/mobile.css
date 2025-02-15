@@ -4,10 +4,28 @@
     .card {
         top: 70px;
     }
-    .brandGroupImg{
-        width: 100%;
-        max-width: 400px;
+    .personal-details {
+        padding-top: 10rem;
     }
+    .personal-img-grp {
+        position:  relative !important;
+        top: 20px !important;
+    }
+    .brandGroupImg{
+       position:  relative !important;
+       top: -80px !important;
+    }
+    .brandBgOne {
+        height: 525px !important;
+        left: -20px !important;
+        }
+        .social-box {
+            bottom: 140px !important;
+        }
+        .social-links img {
+            width: 75%;
+        }
+       
 }
 @media only screen and (max-width: 1200px) {
     .hero-image {
@@ -18,8 +36,21 @@
         top: 200px;
     }
     .personal-details {
+        padding-top: 15rem !important;
         position: relative !important;
-        top: 380px !important;
+        /* top: 380px !important; */
+    }
+    .personal-img-grp {
+        position:  relative !important;
+        top: 50px !important;
+        max-width: 100%;
+    }
+    .brandBgOne {
+        max-width: 100% !important;
+        height: 455px !important;
+    }
+    .social-links img {
+        width: 70%;
     }
     /* personal section  */
     /* .personal-img {
@@ -36,8 +67,8 @@
         z-index: 10;
     } */
     .brandGroupImg {
-        width: 90%;
-        max-width: 400px;
+        /* width: 90%;
+        max-width: 400px; */
     }
 }
 @media only screen and (max-width: 992px) {
@@ -52,6 +83,31 @@
     .card {
         position: relative;
         top: 470px !important;
+    }
+    .personal-details {
+        padding-top: 40rem !important;
+    }
+    .personal-img-grp {
+        position: relative !important;
+        top: 20px !important;
+    }
+    .personal-info {
+        position:  relative !important;
+        top: 30px !important;
+        margin-left:0.5rem;
+        margin-right:15px;
+    }
+    .brandBgOne {
+        height: 420px !important;
+        top: 120px !important;
+    }
+    
+    .social-box {
+       bottom: 120px;
+       left: 150px;
+    }
+    .social-links img {
+        width: 65%;
     }
 }
 
@@ -90,6 +146,57 @@
         top: -300px !important;
         /* border: 1px solid; */
     }
+    .card {
+        position: relative !important;
+        top: -310px !important;
+        /* margin-top: 0px !important; */
+    }
+
+    /* personal section  */
+    .personal-details {
+        padding-top: 15rem !important;
+    }
+    .brandGroupImg {
+        position: relative !important;
+        top: -560px !important;
+        width: 80% !important;
+        /* border: 1px solid; */
+    }
+    .brandBgOne {
+        width: 90% !important;
+        height: auto !important;
+        /* border: 1px solid; */
+    }
+
+    .personal-img {
+        /* border: 1px solid; */
+        width: 95% !important;
+        height: auto !important;
+        top: 80px !important;
+    }
+    .social-box {
+        width: 50%;
+        /* left: 20px; */
+        position:absolute !important;
+        height: auto !important;
+        bottom: 550px !important;
+        
+    }
+    .personal-info {
+        position:  absolute !important;
+        top: 300px !important;
+        /* border: 1px solid ; */
+        padding: 1rem;
+        padding-left: 0px;
+        /* padding-bottom: 2rem !important; */
+        width: 98% !important;
+        height: auto !important;
+        align-items: center;
+        transform: translate(2%,-2%);
+    }
+    /* .p-btn {
+        padding-bottom: 1rem !important;
+    } */
     .footer-menu ,.footer-menubar {
         font-size: 12px;
         text-align: center;
@@ -104,11 +211,7 @@
     }
    
     
-    .card {
-        position: relative !important;
-        top: -310px !important;
-        /* margin-top: 0px !important; */
-    }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -142,6 +245,28 @@
         top: -300px !important;
     }
     
+/* personal section */
+
+.brandGroupImg {
+    position: relative !important;
+    top: -550px !important;
+    width: 80% !important;
+    /* border: 1px solid; */
+}
+
+.social-box {
+    width: 50%;
+    left: 60px;
+    position:absolute !important;
+    height: auto !important;
+    /* bottom: 150px !important; */
+    bottom: 500px !important;
+    right: 230px !important;
+    
+}
+.social-links img {
+    width: 80%;
+}
     .footer-menu ,.footer-menubar {
         font-size: 12px;
         text-align: center;
@@ -162,15 +287,22 @@
    position:relative !important;
   
 }
-   .personal-info {
-        margin: 0;
-        padding: 0;
-    }
-    .social-box
-    {
-        bottom: 10px;
-        right: 20px;
-        border: 1px solid #000;
+.personal-info {
+    position:  absolute !important;
+    top: 230px !important;
+    /* border: 1px solid ; */
+    padding: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 0px;
+    width: 98% !important;
+    height: auto !important;
+    align-items: center;
+    transform: translate(2%,-2%);
+}
+    
+    .p-btn {
+        width: 80%;
+        font-size: clamp(8px , 5vw,14px);
     }
     .award-header {
         padding: 1rem;
@@ -216,6 +348,24 @@
         position:  relative !important;
         top: 7px !important;
     }
+    /* personal section */
+    .personal-details {
+        padding-top: 35rem !important;
+    }
+    .personal-info {
+        position:  absolute !important;
+        top: 380px !important;
+        /* border: 1px solid ; */
+        padding: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 0px;
+        width: 98% !important;
+        height: auto !important;
+    }
+    .social-links img {
+        width: 80%;
+    }
+    
 }
 @media only screen and (max-width: 367px) {
     .intro {
@@ -238,5 +388,28 @@
         position: relative !important;
         border: 1px solid ;
         top: 1200px !important;
+    }
+    .personal-details {
+        padding-top: 40rem !important;
+    }
+    .social-box {
+
+    }
+    .personal-info {
+     top: 440px !important;
+     padding-left:0rem;
+    }
+    .social-box {
+        width: 60%;
+        left: 35px;
+        position:absolute !important;
+        height: auto !important;
+        /* bottom: 150px !important; */
+        bottom: 480px !important;
+        right: 300px !important;
+        
+    }
+    .social-links img {
+        width: 75%;
     }
 }
