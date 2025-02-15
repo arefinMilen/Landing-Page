@@ -666,10 +666,24 @@ section  .card-info{
     }
 
     /* feedback section */
-    /* .feedback {
-        position: relative;
-        top: 420px;
-    } */
+    .feedback {
+        padding: 2rem 0;   
+    }
+    .feed-info .title {
+        font-size: clamp(16px,2vw,24px);
+        font-family: Sora;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0%;
+    }
+    .feed-des {
+        font-family: Sora;
+        font-weight: 300;
+        font-size: clamp(12px,2vw,16px);
+        line-height: 24px;
+        letter-spacing: 0%;
+
+    }
     .feedback-body {
         top: 186px;
         position: relative;
@@ -692,9 +706,9 @@ section  .card-info{
         color: black;
     }
     .feed-social-box {
-        width:384px;
-        height:152px;
-        padding:32px;
+        width:32.5% !important;
+        height:auto;
+        padding:16px;
         border-radius:16px;
         opacity: 0px;
         border: 1px solid white;
@@ -707,6 +721,9 @@ section  .card-info{
         text-decoration: none;
         border-radius: 50%;
 
+    }
+    .feed-right-arrow {
+        filter: invert(1);
     }
     /* footer section */
     /* .footer-info {
@@ -728,3 +745,5 @@ section  .card-info{
     .footer-menubar a:hover{
         color: white;
     }
+
+  
