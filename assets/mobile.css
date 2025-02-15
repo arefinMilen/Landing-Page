@@ -210,6 +210,17 @@
         width: 95% !important;
     }
 
+/* client testimonial */
+.client-card {
+    width: 90% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* margin: 1rem; */
+    margin: 0 auto;
+    margin-bottom: 3rem !important;
+
+}
+
  /* footer section */
     .footer-menu ,.footer-menubar {
         font-size: 12px;
@@ -327,7 +338,10 @@
         position: relative !important;
         top: 5rem !important;
     }
-
+/* client testimonial */
+.client-card {
+    margin: 0 auto;
+}
 /* feedback section  */
    .feed-social-box {
     width: 60%;
