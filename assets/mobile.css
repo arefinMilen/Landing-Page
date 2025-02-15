@@ -25,7 +25,6 @@
         .social-links img {
             width: 75%;
         }
-       
 }
 @media only screen and (max-width: 1200px) {
     .hero-image {
@@ -203,19 +202,21 @@
         width: 48% !important; 
         margin-bottom: 2rem !important;
     }
+/* skill section */
+    .skill-col-card {
+        width: 95% !important;
+    }
+    .skill-col {
+        width: 95% !important;
+    }
 
+ /* footer section */
     .footer-menu ,.footer-menubar {
         font-size: 12px;
         text-align: center;
         flex-direction: column;
     }
-    .skill-col {
-        width: 80%;
-        margin: 0;
-      padding: 1rem 1rem;
-        bottom: -150px;
-        right: 180px;
-    }
+   
    
     
     
@@ -280,26 +281,6 @@
     margin-bottom: 2rem !important;
     margin-left: 10px;
 }
-    .footer-menu ,.footer-menubar {
-        font-size: 12px;
-        text-align: center;
-        flex-direction: column;
-    }
-    .skill-col {
-
-        width: 80%;
-        margin: 0;
-      padding: 1rem 1rem;
-        /* bottom: -150px; */
-        right: 0px;
-    }
-.skill-col .brand2-img {
-    align-items: center;
-   left: -50px;
-   top: 150px !important;
-   position:relative !important;
-  
-}
 .personal-info {
     position:  absolute !important;
     top: 230px !important;
@@ -324,9 +305,8 @@
         padding: 1rem;
         margin: 1rem;
     }
-    /* clients section */
+/* clients section */
     .clients {
-        /* display: block; */
         position: relative !important;
         top: -260px !important;
     }
@@ -342,17 +322,23 @@
         margin: 1rem;
     }
 
-    /* service section */
+/* service section */
     .service-card-2 {
         position: relative !important;
         top: 5rem !important;
     }
 
+/* feedback section  */
    .feed-social-box {
     width: 60%;
     height: auto;
     margin: 0 auto;
     display: block;
+    }
+    .footer-menu ,.footer-menubar {
+        font-size: 12px;
+        text-align: center;
+        flex-direction: column;
     }
    }
 @media only screen and (max-width: 455px) {
@@ -368,7 +354,7 @@
         position:  relative !important;
         top: 7px !important;
     }
-    /* personal section */
+/* personal section */
     .personal-details {
         padding-top: 35rem !important;
     }
@@ -438,7 +424,7 @@
         width: 75%;
     }
 
-    /* service section */
+/* service section */
     .services {
         padding: 8rem 0;
     }

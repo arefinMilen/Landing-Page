@@ -442,25 +442,28 @@ section  .card-info{
         transition: all .4s ease-in-out;
      }
      /* skills section */
-    /* .skills {
-        position: relative;
-        top: 420px;
-    } */
+
+    .skills {
+        padding: 5rem 0;
+    }
      .skill-wrap
      {
         display: flex;
      }
      .skill-col-card
      {
+        width: 49% !important;
+        height: auto;
         position: relative;
-        top: 168px;
      }
      .skill-col-card p{
         margin-bottom: 0;
      }
      .skill-col {
-        width: 536px;
-        height: 646px;
+        width: 49% !important;
+        height: auto;
+        position: relative;
+        bottom: 1rem;
      }
      .skills-set{
         padding: 1rem 0;
