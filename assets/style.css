@@ -343,7 +343,7 @@ section  .card-info{
  }
  .services{
     background: linear-gradient(180deg, rgba(243, 236, 255, 0.4) 0%, rgba(243, 236, 255, 0) 100%);
-    /* padding: 7rem; */
+    padding:5rem 0rem;
     /* top:420px;
     position: relative;     */
  }

@@ -329,6 +329,13 @@
         padding: 1rem;
         margin: 1rem;
     }
+
+    /* service section */
+    .service-card-2 {
+        position: relative !important;
+        top: 5rem !important;
+    }
+
    .feed-social-box {
     width: 60%;
     height: auto;
@@ -365,6 +372,14 @@
     }
     .social-links img {
         width: 80%;
+    }
+    /* services section */
+    .services {
+        padding: 7rem 0;
+    }
+    .service-card {
+        position: relative !important;
+        bottom: 2rem !important
     }
     
 }
@@ -409,5 +424,19 @@
     }
     .social-links img {
         width: 75%;
+    }
+
+    /* service section */
+    .services {
+        padding: 8rem 0;
+    }
+    .service-card {
+        position: relative !important;
+        bottom: 4rem !important
+    }
+    .service-card-2 {
+        position: relative !important;
+        top: 4.5rem !important;
+        
     }
 }
