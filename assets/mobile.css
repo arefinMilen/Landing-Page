@@ -190,8 +190,8 @@
         align-items: center;
         transform: translate(2%,-2%);
     }
-    /* award section */
 
+    /* award section */
     .award-info {
         width: 95% !important;
         margin-bottom: 2.5rem !important;
@@ -202,6 +202,7 @@
         width: 48% !important; 
         margin-bottom: 2rem !important;
     }
+
 /* skill section */
     .skill-col-card {
         width: 95% !important;
@@ -218,9 +219,15 @@
     /* margin: 1rem; */
     margin: 0 auto;
     margin-bottom: 3rem !important;
-
 }
 
+/* articles section  */
+    .article-card {
+        width: 95% !important;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
  /* footer section */
     .footer-menu ,.footer-menubar {
         font-size: 12px;

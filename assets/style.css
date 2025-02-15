@@ -634,7 +634,7 @@ section  .card-info{
     }
     
     .article-card {
-        width:424px;
+        width:32% !important;
         height:auto;
         padding:32px;
         margin:12px 0;
