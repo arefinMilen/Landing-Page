@@ -119,7 +119,9 @@
     .feed-social-links img{
         width: 17% !important;
     }
-    
+    .footer-logo {
+        width: 20%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -157,12 +159,19 @@
         top: -300px !important;
         /* border: 1px solid; */
     }
+    .client-logos img {
+        width: 15% !important;
+    }
+    /* project section  */
     .card {
         position: relative !important;
         top: -310px !important;
         /* margin-top: 0px !important; */
     }
 
+    .card-info {
+        width: 90% !important;
+    }
     /* personal section  */
     .personal-details {
         padding-top: 15rem !important;
@@ -241,7 +250,6 @@
         width: 95% !important;
         justify-content: center;
         margin: 0 auto;
-
     }
      /* feedback  */
      .feed-social-box{
@@ -258,15 +266,23 @@
             display: none !important;
          }
  /* footer section */
-    .footer-menu ,.footer-menubar {
+    .footer-menu ,.footer-menubar{
         font-size: 12px;
         text-align: center;
-        flex-direction: column;
+        flex-direction: column !important;
     }
-   
-   
+    .footer-menubar ul {
+        flex-direction: column !important;
+        text-align: center !important;
+        padding: 0;
+    }
+   .footer-menubar ul >li {
+    padding: 5px;
+   }
     
-    
+   .footer-logo {
+    width: 100%;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -346,11 +362,14 @@
         font-size: clamp(8px , 5vw,14px);
     }
     .award-header {
-        padding: 1rem;
+        padding: 1rem 0;
     }
     .awards-card {
         padding: 1rem;
         margin: 1rem;
+    }
+    .award-info {
+        width: 98% !important;
     }
 /* clients section */
     .clients {
@@ -464,6 +483,9 @@
         margin-top: 150px !important;
         /* border: 1px solid ; */
         
+    }
+    .client-logos img {
+        width: 14% !important;
     }
     .card {
         position: relative !important;

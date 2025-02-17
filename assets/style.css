@@ -133,8 +133,7 @@ nav div ul li a:hover {
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
 }
-.client-logos {
-    /* border: 1px solid;   */
+.client-logos { 
     max-width: 1320px;
     /* gap: 20px; */
     text-align: left;
@@ -180,6 +179,7 @@ nav div ul li a:hover {
     padding: 2rem;
 }
 section  .card-info{
+    width: 32% !important;
     flex: 1;
     margin: 1rem;
     padding: 1rem;
@@ -201,14 +201,19 @@ section  .card-info{
     align-items: center;
     width: 300px;
     margin-left: 35%;
-
+    /* filter: invert(1); */
+    
 }
 .right-arrow{
     padding-bottom: 1.5rem;
     position: relative;
     bottom: .5rem;
     /* border: 1px solid; */
-    filter: convert(1);
+    filter: invert(1);
+ 
+}
+.right-arrow-2 {
+   color: greenyellow;
 }
 .container-brandOne {
     max-width: 1408px;
@@ -726,17 +731,35 @@ section  .card-info{
         filter: invert(1);
     }
     /* footer section */
-    /* .footer-info {
-        
-        top: 420px;
-    } */
+    
     .footer-info {
-        background-color: black;
+        background-color: #132238;
         height: 576px;
     }
     .footer-menu {
         position:relative;
         top: 286px;
+        display: flex;
+        flex-direction: row !important;
+        justify-content:space-between;
+        
+
+    }
+    .footer-logo {
+        padding: 0;
+        margin: 0;
+       bottom :30px;
+       right: 25px;
+       position: relative;
+    }
+    .footer-menu ,.footer-menubar {
+        font-size: 12px;
+        text-align: center;
+        flex-direction: row;
+    }
+    .footer-menubar ul {
+        display: flex !important;
+        flex-direction: row !important;
     }
     .footer-menubar a{
         text-decoration: none;
